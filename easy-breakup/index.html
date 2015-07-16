@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head> 
-  <title>Easy Break Up</title>
-  <link href="css/styles.css" rel="stylesheet">
-  <h1><center>Easy Break Up</center></h1> 
-  <h2>Reluctant to break the bad news with your significant other?<p>No worries, we'll do it for you.</p></h2>
-   <h3>Enter their number and your name here</h3>
-   <input type="text" id="phone-number">
-   <input type="text" id="name">
-    <button onclick="sendText();">Send</button>
+    <title>Easy Break Up</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://maestro.ngrok.com/static/baton.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <script src="js/script.js"></script>
+    <h1><center>Easy Break Up</center></h1> 
+    <background><center><img src="http://www.bloodlineart.com/wp-content/uploads/2014/04/BleedingHeart_fb1-530x350.jpg"></background>
+    <h2><center>Reluctant to break the bad news to your significant other?<p>No worries, we'll do it for you.</center></p></h2>
+    <h3>Enter their number and your name here</h3>
+    <p>Your Name:</p>
+    <P><input id="yourname" class="" name="yourname" type="text"  value="Your Name" onfocus="if (this.value == 'Your Name') {this.value = '';}" onblur="if (this.value == '') " /></p>
+    <p>His/Her Name:</p>
+    <P><input id="hisorhername" class="" name="hisorhername" type="text"  value="His/Her Name" onfocus="if (this.value == 'His/Her Name') {this.value = '';}" onblur="if (this.value == '') " /></p>
+    <p>His/Her Phone Number:</p>
+    <P><input id="phone-number" class="" name="phonenumber" type="text" value="Phone Number" onfocus="if (this.value == 'Phone Number') {this.value = '';}" onblur="if (this.value == '') " /></p>
+    <p><button name="sendtext" id="sendtext" onclick="sendText()" value="Send">Send</button></p>
   </head>
-  <body></body>
+  <body>
+    <h4>Watch us work our heart-breaking magic here!</h4>
+    <p><button name="checkresponse" id="checkresponse" onclick="checkresponse()" value="Check Response">Check Response</button></p>
+    <ol id="demo"></ol>
+    </center>
+  </body>
 </html>
+
+
+

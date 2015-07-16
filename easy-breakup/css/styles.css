@@ -1,5 +1,19 @@
-body{
+body {
   font-family:monospace;
   background-color:black;
   color:white;
+
+h1 {
+  font-size:48pt;
+}
+
+h2 {
+  font-size:36pt;
+}
+
+h3 {
+  font-size:24pt;
+}
+h4 {
+  
 }
