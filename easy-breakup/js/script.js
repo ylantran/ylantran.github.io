@@ -20,7 +20,6 @@ var checkresponse = function () {
   entry.appendChild(document.createTextNode(firstname));
   list.appendChild(entry);
   });
-  
 };
 
 var x = document.getElementById("mySelect");
